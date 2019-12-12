@@ -9,22 +9,7 @@
 import SwiftUI
 import CoreText
 
-func registerFont(font: CustomFont, completion: @escaping (Bool)->()) {
-    
-    let fonts: CFArray = font.files as CFArray
-    
-    let bundle = CFBundleGetMainBundle()
-    
-    CTFontManagerRegisterFontsWithAssetNames(fonts, bundle, .user, true) { (errors, done) -> Bool in
-        if done {
-            completion(true)
-            return true
-        } else {
-            completion(false)
-            return false
-        }
-    }
-}
+
 
 struct CustomFonts: Codable {
     let fonts: [CustomFont]
@@ -63,5 +48,24 @@ struct CustomFont: Codable, Identifiable {
     
     var headingFont: Font {
         return Font.custom(files.first ?? "", size: 40)
+    }
+    
+    func register(completion: @escaping (Bool)->()) {
+        
+        let qualifiedFonts = files.map({
+            return Bundle.main.url(forResource: $0, withExtension: ".ttf")
+        })
+        
+        let fonts: CFArray = qualifiedFonts as CFArray
+            
+        CTFontManagerRegisterFontURLs(fonts, .user, true) { (errors, done) -> Bool in
+            if done {
+                completion(true)
+                return true
+            } else {
+                completion(false)
+                return false
+            }
+        }
     }
 }

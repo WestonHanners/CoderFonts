@@ -26,6 +26,21 @@
 		<string>Hack-BoldItalic.ttf</string>
 		<string>Hack-Italic.ttf</string>
 		<string>Hack-Regular.ttf</string>
+		<string>Inconsolata-Regular.ttf</string>
+		<string>Inconsolata-Bold.ttf</string>
+		<string>SourceCodePro-Black.ttf</string>
+		<string>SourceCodePro-BlackIt.ttf</string>
+		<string>SourceCodePro-Bold.ttf</string>
+		<string>SourceCodePro-BoldIt.ttf</string>
+		<string>SourceCodePro-ExtraLight.ttf</string>
+		<string>SourceCodePro-ExtraLightIt.ttf</string>
+		<string>SourceCodePro-It.ttf</string>
+		<string>SourceCodePro-Light.ttf</string>
+		<string>SourceCodePro-LightIt.ttf</string>
+		<string>SourceCodePro-Medium.ttf</string>
+		<string>SourceCodePro-Regular.ttf</string>
+		<string>SourceCodePro-Semibold.ttf</string>
+		<string>SourceCodePro-SemiboldIt.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

@@ -12,6 +12,23 @@
 		AD70732423A1EE2E008B5CED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70732323A1EE2E008B5CED /* DetailView.swift */; };
 		AD70732823A1F31D008B5CED /* CustomFontText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70732723A1F31D008B5CED /* CustomFontText.swift */; };
 		AD89E10A23A1FC440071D9E7 /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89E10923A1FC440071D9E7 /* LicenseView.swift */; };
+		AD9C792523A2A54D00A15FEE /* Inconsolata-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792323A2A54D00A15FEE /* Inconsolata-Bold.ttf */; };
+		AD9C792623A2A54D00A15FEE /* Inconsolata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792423A2A54D00A15FEE /* Inconsolata-Regular.ttf */; };
+		AD9C793523A2A66D00A15FEE /* SourceCodePro-ExtraLightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792723A2A66C00A15FEE /* SourceCodePro-ExtraLightIt.ttf */; };
+		AD9C793623A2A66D00A15FEE /* SourceCodePro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792823A2A66C00A15FEE /* SourceCodePro-Semibold.ttf */; };
+		AD9C793723A2A66D00A15FEE /* SourceCodePro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792923A2A66C00A15FEE /* SourceCodePro-Black.ttf */; };
+		AD9C793823A2A66D00A15FEE /* SourceCodePro-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792A23A2A66C00A15FEE /* SourceCodePro-LightIt.ttf */; };
+		AD9C793923A2A66D00A15FEE /* SourceCodePro-It.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792B23A2A66C00A15FEE /* SourceCodePro-It.ttf */; };
+		AD9C793A23A2A66D00A15FEE /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792C23A2A66C00A15FEE /* SourceCodePro-Regular.ttf */; };
+		AD9C793B23A2A66D00A15FEE /* SourceCodePro-MediumIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792D23A2A66C00A15FEE /* SourceCodePro-MediumIt.ttf */; };
+		AD9C793C23A2A66D00A15FEE /* SourceCodePro-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792E23A2A66C00A15FEE /* SourceCodePro-BoldIt.ttf */; };
+		AD9C793D23A2A66D00A15FEE /* SourceCodePro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C792F23A2A66C00A15FEE /* SourceCodePro-ExtraLight.ttf */; };
+		AD9C793E23A2A66D00A15FEE /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C793023A2A66C00A15FEE /* SourceCodePro-Medium.ttf */; };
+		AD9C793F23A2A66D00A15FEE /* SourceCodePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C793123A2A66D00A15FEE /* SourceCodePro-Bold.ttf */; };
+		AD9C794023A2A66D00A15FEE /* SourceCodePro-BlackIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C793223A2A66D00A15FEE /* SourceCodePro-BlackIt.ttf */; };
+		AD9C794123A2A66D00A15FEE /* SourceCodePro-SemiboldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C793323A2A66D00A15FEE /* SourceCodePro-SemiboldIt.ttf */; };
+		AD9C794223A2A66D00A15FEE /* SourceCodePro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C793423A2A66D00A15FEE /* SourceCodePro-Light.ttf */; };
+		AD9C794423A2AC0800A15FEE /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C794323A2AC0800A15FEE /* LoadingIndicator.swift */; };
 		ADBB117723A1E1A0006D813E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB117623A1E1A0006D813E /* AppDelegate.swift */; };
 		ADBB117923A1E1A0006D813E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB117823A1E1A0006D813E /* SceneDelegate.swift */; };
 		ADBB117B23A1E1A0006D813E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB117A23A1E1A0006D813E /* ContentView.swift */; };
@@ -31,6 +48,23 @@
 		AD70732723A1F31D008B5CED /* CustomFontText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontText.swift; sourceTree = "<group>"; };
 		AD89E10923A1FC440071D9E7 /* LicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
 		AD89E10C23A206520071D9E7 /* Font App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Font App.entitlements"; sourceTree = "<group>"; };
+		AD9C792323A2A54D00A15FEE /* Inconsolata-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inconsolata-Bold.ttf"; sourceTree = "<group>"; };
+		AD9C792423A2A54D00A15FEE /* Inconsolata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inconsolata-Regular.ttf"; sourceTree = "<group>"; };
+		AD9C792723A2A66C00A15FEE /* SourceCodePro-ExtraLightIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-ExtraLightIt.ttf"; sourceTree = "<group>"; };
+		AD9C792823A2A66C00A15FEE /* SourceCodePro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Semibold.ttf"; sourceTree = "<group>"; };
+		AD9C792923A2A66C00A15FEE /* SourceCodePro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Black.ttf"; sourceTree = "<group>"; };
+		AD9C792A23A2A66C00A15FEE /* SourceCodePro-LightIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-LightIt.ttf"; sourceTree = "<group>"; };
+		AD9C792B23A2A66C00A15FEE /* SourceCodePro-It.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-It.ttf"; sourceTree = "<group>"; };
+		AD9C792C23A2A66C00A15FEE /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
+		AD9C792D23A2A66C00A15FEE /* SourceCodePro-MediumIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-MediumIt.ttf"; sourceTree = "<group>"; };
+		AD9C792E23A2A66C00A15FEE /* SourceCodePro-BoldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-BoldIt.ttf"; sourceTree = "<group>"; };
+		AD9C792F23A2A66C00A15FEE /* SourceCodePro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AD9C793023A2A66C00A15FEE /* SourceCodePro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Medium.ttf"; sourceTree = "<group>"; };
+		AD9C793123A2A66D00A15FEE /* SourceCodePro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Bold.ttf"; sourceTree = "<group>"; };
+		AD9C793223A2A66D00A15FEE /* SourceCodePro-BlackIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-BlackIt.ttf"; sourceTree = "<group>"; };
+		AD9C793323A2A66D00A15FEE /* SourceCodePro-SemiboldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-SemiboldIt.ttf"; sourceTree = "<group>"; };
+		AD9C793423A2A66D00A15FEE /* SourceCodePro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Light.ttf"; sourceTree = "<group>"; };
+		AD9C794323A2AC0800A15FEE /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		ADBB117323A1E1A0006D813E /* Coder Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coder Fonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBB117623A1E1A0006D813E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADBB117823A1E1A0006D813E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +105,7 @@
 				ADBB117A23A1E1A0006D813E /* ContentView.swift */,
 				AD70732723A1F31D008B5CED /* CustomFontText.swift */,
 				AD89E10923A1FC440071D9E7 /* LicenseView.swift */,
+				AD9C794323A2AC0800A15FEE /* LoadingIndicator.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,13 +138,13 @@
 		ADBB117523A1E1A0006D813E /* Font App */ = {
 			isa = PBXGroup;
 			children = (
-				AD89E10C23A206520071D9E7 /* Font App.entitlements */,
 				ADBB118A23A1E356006D813E /* Fonts */,
 				AD89E10B23A1FD6A0071D9E7 /* App Startup */,
 				AD70732623A1F1FE008B5CED /* Views */,
 				ADBB117E23A1E1A3006D813E /* Preview Content */,
 				AD70732523A1F1E5008B5CED /* Data Structures */,
 				ADBB117C23A1E1A3006D813E /* Assets.xcassets */,
+				AD89E10C23A206520071D9E7 /* Font App.entitlements */,
 				ADBB118123A1E1A3006D813E /* LaunchScreen.storyboard */,
 				ADBB118423A1E1A3006D813E /* Info.plist */,
 			);
@@ -132,6 +167,22 @@
 				ADBB119423A1E37C006D813E /* Hack-BoldItalic.ttf */,
 				ADBB119623A1E37C006D813E /* Hack-Italic.ttf */,
 				ADBB119523A1E37C006D813E /* Hack-Regular.ttf */,
+				AD9C792323A2A54D00A15FEE /* Inconsolata-Bold.ttf */,
+				AD9C792423A2A54D00A15FEE /* Inconsolata-Regular.ttf */,
+				AD9C792923A2A66C00A15FEE /* SourceCodePro-Black.ttf */,
+				AD9C793223A2A66D00A15FEE /* SourceCodePro-BlackIt.ttf */,
+				AD9C793123A2A66D00A15FEE /* SourceCodePro-Bold.ttf */,
+				AD9C792E23A2A66C00A15FEE /* SourceCodePro-BoldIt.ttf */,
+				AD9C792F23A2A66C00A15FEE /* SourceCodePro-ExtraLight.ttf */,
+				AD9C792723A2A66C00A15FEE /* SourceCodePro-ExtraLightIt.ttf */,
+				AD9C792B23A2A66C00A15FEE /* SourceCodePro-It.ttf */,
+				AD9C793423A2A66D00A15FEE /* SourceCodePro-Light.ttf */,
+				AD9C792A23A2A66C00A15FEE /* SourceCodePro-LightIt.ttf */,
+				AD9C793023A2A66C00A15FEE /* SourceCodePro-Medium.ttf */,
+				AD9C792D23A2A66C00A15FEE /* SourceCodePro-MediumIt.ttf */,
+				AD9C792C23A2A66C00A15FEE /* SourceCodePro-Regular.ttf */,
+				AD9C792823A2A66C00A15FEE /* SourceCodePro-Semibold.ttf */,
+				AD9C793323A2A66D00A15FEE /* SourceCodePro-SemiboldIt.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -194,13 +245,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9C793523A2A66D00A15FEE /* SourceCodePro-ExtraLightIt.ttf in Resources */,
+				AD9C794023A2A66D00A15FEE /* SourceCodePro-BlackIt.ttf in Resources */,
+				AD9C793A23A2A66D00A15FEE /* SourceCodePro-Regular.ttf in Resources */,
 				ADBB118323A1E1A3006D813E /* LaunchScreen.storyboard in Resources */,
+				AD9C793E23A2A66D00A15FEE /* SourceCodePro-Medium.ttf in Resources */,
 				ADBB118023A1E1A3006D813E /* Preview Assets.xcassets in Resources */,
+				AD9C793623A2A66D00A15FEE /* SourceCodePro-Semibold.ttf in Resources */,
+				AD9C793D23A2A66D00A15FEE /* SourceCodePro-ExtraLight.ttf in Resources */,
 				ADBB119A23A1E37C006D813E /* Hack-Italic.ttf in Resources */,
+				AD9C793B23A2A66D00A15FEE /* SourceCodePro-MediumIt.ttf in Resources */,
+				AD9C793F23A2A66D00A15FEE /* SourceCodePro-Bold.ttf in Resources */,
+				AD9C793723A2A66D00A15FEE /* SourceCodePro-Black.ttf in Resources */,
 				ADBB119923A1E37C006D813E /* Hack-Regular.ttf in Resources */,
+				AD9C794223A2A66D00A15FEE /* SourceCodePro-Light.ttf in Resources */,
+				AD9C794123A2A66D00A15FEE /* SourceCodePro-SemiboldIt.ttf in Resources */,
 				AD70732023A1E68A008B5CED /* fonts.json in Resources */,
+				AD9C793823A2A66D00A15FEE /* SourceCodePro-LightIt.ttf in Resources */,
+				AD9C792623A2A54D00A15FEE /* Inconsolata-Regular.ttf in Resources */,
 				ADBB119823A1E37C006D813E /* Hack-BoldItalic.ttf in Resources */,
 				ADBB119723A1E37C006D813E /* Hack-Bold.ttf in Resources */,
+				AD9C793923A2A66D00A15FEE /* SourceCodePro-It.ttf in Resources */,
+				AD9C792523A2A54D00A15FEE /* Inconsolata-Bold.ttf in Resources */,
+				AD9C793C23A2A66D00A15FEE /* SourceCodePro-BoldIt.ttf in Resources */,
 				ADBB117D23A1E1A3006D813E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +283,7 @@
 				ADBB117723A1E1A0006D813E /* AppDelegate.swift in Sources */,
 				AD70732223A1EA88008B5CED /* CustomFonts.swift in Sources */,
 				AD89E10A23A1FC440071D9E7 /* LicenseView.swift in Sources */,
+				AD9C794423A2AC0800A15FEE /* LoadingIndicator.swift in Sources */,
 				ADBB117923A1E1A0006D813E /* SceneDelegate.swift in Sources */,
 				AD70732423A1EE2E008B5CED /* DetailView.swift in Sources */,
 				ADBB117B23A1E1A0006D813E /* ContentView.swift in Sources */,
