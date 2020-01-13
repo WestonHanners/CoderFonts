@@ -8,10 +8,20 @@
 
 import SwiftUI
 
-struct Spinner: Shape {
+struct Spinner: Shape, Animatable {
+    typealias AnimatableData = AnimatablePair<Double, Double>
+    
+    public var animatableData: AnimatableData {
+        get { return AnimatableData(startAngle.degrees, endAngle.degrees) }
+        set {
+            startAngle = Angle(degrees: newValue.first)
+            endAngle = Angle(degrees: newValue.second)
+        }
+    }
+    
     var startAngle: Angle
     var endAngle: Angle
-
+    
     func path(in rect: CGRect) -> Path {
         var path = Path()
 
@@ -22,32 +32,48 @@ struct Spinner: Shape {
             endAngle: endAngle,
             clockwise: false
         )
-
+        
         return path
     }
 }
 
 struct LoadingIndicator: View {
+    @State var animating: Bool = false
+    @State var endAngle = Angle.degrees(350)
+    
+    var gradient: AngularGradient {
+        let gradient = Gradient(colors: [.blue, .green])
+        return AngularGradient(gradient: gradient, center: .center)
+    }
+    
     var body: some View {
         ZStack {
-            Color.gray.opacity(0.5)
+            Color.gray.opacity(0.2)
                 .edgesIgnoringSafeArea(.all)
-            VStack {
+            VStack(alignment: .center) {
+
                 Spacer()
+                    .frame(width: nil, height: 80, alignment: .center)
                 
-                Spinner(startAngle: Angle.zero, endAngle: Angle.degrees(270))
-                    .stroke(lineWidth: 20.0)
-                    .foregroundColor(.blue)
-                    .animation(Animation.easeInOut(duration: 1.0).repeatForever(autoreverses: false))
+                Spinner(startAngle: Angle.degrees(50),
+                        endAngle: endAngle)
+                    .stroke(gradient, style: StrokeStyle(lineWidth: 10, lineCap: .round))
                     .frame(width: 100, height: 100, alignment: .center)
-                    .rotationEffect(Angle.radians(Double.pi * 2))
-                    .animation(Animation.easeInOut(duration: 2.0))
+                    .animation(Animation.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: endAngle)
+                    .rotationEffect(self.animating ? Angle.radians(Double.pi * 2) : Angle.degrees(0))
+                    .animation(Animation.easeInOut(duration: 0.8).repeatForever(autoreverses: false))
+                    .compositingGroup()
                 
                 Text("Installing...")
                     .font(.largeTitle)
                     .foregroundColor(.primary)
                 
+                
                 Spacer()
+            }
+            .onAppear() {
+                self.endAngle = Angle.degrees(50)
+                self.animating = true
             }
         }
     }

@@ -37,6 +37,17 @@ struct CustomFonts: Codable {
 }
 
 struct CustomFont: Codable, Identifiable {
+    
+    static let demoString = "The quick brown fox jumps over the lazy dog 0123456789"
+    static let expandedDemoString =
+    """
+    abcdefghijklmnopqrstuvwxyz
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    0123456789
+    !@#$%^&*()_+-=,
+    ./;'[]\\<>?:"{}|
+    """
+    
     let id: UUID = UUID()
     let name: String
     let license: String

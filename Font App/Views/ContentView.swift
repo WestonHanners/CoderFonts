@@ -10,6 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State var installing: Bool = false
+    
     let fonts: [CustomFont]
     
     init() {
@@ -17,18 +19,26 @@ struct ContentView: View {
     }
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach (fonts) { font in
-                    NavigationLink(destination: DetailView(selectedFont: font)) {
-                        Text(font.name)
-                            .font(font.displayFont)
+        ZStack {
+            NavigationView {
+                List {
+                    ForEach (fonts) { font in
+                        NavigationLink(destination: DetailView(selectedFont: font,
+                                                               installing: self.$installing)) {
+                            Text(font.name)
+                                .font(font.displayFont)
+                        }
                     }
                 }
+                .navigationBarTitle("Coder Fonts")
             }
-            .navigationBarTitle("Coder Fonts")
+            .blur(radius: self.installing ? 10 : 0)
+            
+            if (self.installing) {
+                LoadingIndicator()
+            }
         }
-        
+
     }
 }
 
